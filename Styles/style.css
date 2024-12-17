@@ -1,0 +1,126 @@
+body {
+    background: #310e12;
+    color: #da7b54;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+}
+
+h2 {
+    color: #da7b54;
+    font-size: 3em;
+    justify-items: center;
+    align-items: center;
+    font font-family: "Berkshire Swash", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+header:nth-child(2){
+color: white;
+}
+
+img {
+    max-width: 30em;
+    padding-left: 30;
+    border-radius: 1em;
+    align-items: center;
+}
+
+section {
+    color: white;
+    text-align: center;
+}
+
+li {
+    color: #da7b54;
+}
+
+footer {
+    list-style-type: none;
+   
+    justify-content: space-around;
+    align-items: first baseline;
+    height: 10em;
+    padding: 5em;
+    font-family:"Josefin Sans", Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #da7b54;
+    background: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly safe;
+    align-content: space-around;    
+}
+.item{
+    order: 6;
+    flex-basis: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex-shrink: 3;
+}
+
+a {  
+    background: white;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    text-decoration: none;
+    transition: background 250ms ease;
+}
+
+a:hover {
+background:  #da7b54;
+}
+
+a:focus {
+    background:  #da7b54;
+    border: none;
+}
+
+
+
+li {
+    margin-right: 2em;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+   
+    
+  
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;;
+}
+
+ width: 300px;
+border: 15px black;
+  padding: 50px;
+/* Bron: https://www.w3schools.com/ , DLO en docent*/
